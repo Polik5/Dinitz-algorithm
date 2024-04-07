@@ -1,0 +1,23 @@
+digraph ResidualGraph {
+0 [style=filled, fillcolor=green];
+0 -> 1 [label="9"];
+0 [style=filled, fillcolor=green];
+0 -> 5 [label="3"];
+1 -> 0 [label="1"];
+1 -> 2 [label="4"];
+1 -> 4 [label="5"];
+2 -> 3 [label="5"];
+7 [style=filled, fillcolor=green];
+3 -> 7 [label="8"];
+4 -> 0 [label="11"];
+4 -> 1 [label="1"];
+4 -> 3 [label="2"];
+4 -> 5 [label="3"];
+5 -> 0 [label="7"];
+6 -> 5 [label="7"];
+7 [style=filled, fillcolor=green];
+6 -> 7 [label="8"];
+7 -> 4 [label="12"];
+7 -> 6 [label="7"];
+"0->5->6->7->0->1->4->7";
+}
